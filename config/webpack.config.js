@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 const MiniCssExtractPlugin  = require("mini-css-extract-plugin") 
 const CssMinimizerWebpackPlugin  = require("css-minimizer-webpack-plugin")
 const TerserWebpackPlugin = require("terser-webpack-plugin")
-const ImageMinimizerWebpackPlugin = require("image-minimizer-webpack-plugin")
+const ImageMinimizerWebpackPlugin = require("image-minimizer-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
